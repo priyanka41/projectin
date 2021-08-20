@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome'); // welcome.blade.php
+    return view('home'); // welcome.blade.php
 });
 
 Route::view('/result', 'search'); //1. path, 2. search.blade.php
